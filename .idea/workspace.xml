@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c957775b-067d-4041-b376-6096e288b800" name="Default Changelist" comment="" />
+    <list default="true" id="c957775b-067d-4041-b376-6096e288b800" name="Default Changelist" comment="nueral net code">
+      <change afterPath="$PROJECT_DIR$/Neural-Net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data-Science-Team.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data-Science-Team.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSTM-Net.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="LSTM-Net" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -51,9 +71,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM-Net.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ean10\Documents\GitHub\Data-Science-Team\Neural-Net.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Data-Science-Team" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -79,7 +121,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\ean10\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,6 +131,10 @@
       <option name="presentableId" value="Default" />
       <updated>1581467262789</updated>
       <workItem from="1581467266284" duration="1415000" />
+      <workItem from="1584556978878" duration="3695000" />
+      <workItem from="1585763453437" duration="9710000" />
+      <workItem from="1585800236690" duration="8149000" />
+      <workItem from="1585809875391" duration="4076000" />
     </task>
     <servers />
   </component>
@@ -100,48 +146,61 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="256" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581468038447">
+    <state x="256" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585768766330">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="256" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1581468038447" />
-    <state width="779" height="236" key="GridCell.Tab.0.bottom" timestamp="1581508309295">
+    <state x="256" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1585768766330" />
+    <state x="422" y="45" key="CommitChangelistDialog2" timestamp="1585813005449">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="779" height="236" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1581508309295" />
-    <state width="779" height="236" key="GridCell.Tab.0.center" timestamp="1581508309295">
+    <state x="422" y="45" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1585813005449" />
+    <state x="181" y="195" key="FileChooserDialogImpl" timestamp="1585766661331">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="779" height="236" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1581508309295" />
-    <state width="779" height="236" key="GridCell.Tab.0.left" timestamp="1581508309295">
+    <state x="181" y="195" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1585766661331" />
+    <state width="1558" height="296" key="GridCell.Tab.0.bottom" timestamp="1585813935969">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="779" height="236" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1581508309295" />
-    <state width="779" height="236" key="GridCell.Tab.0.right" timestamp="1581508309295">
+    <state width="1558" height="296" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1585813935969" />
+    <state width="1558" height="296" key="GridCell.Tab.0.center" timestamp="1585813935969">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="779" height="236" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1581508309295" />
-    <state x="302" y="92" key="SettingsEditor" timestamp="1581508300173">
+    <state width="1558" height="296" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1585813935969" />
+    <state width="1558" height="296" key="GridCell.Tab.0.left" timestamp="1585813935969">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="302" y="92" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1581508300173" />
-    <state x="103" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1581467266732">
+    <state width="1558" height="296" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1585813935969" />
+    <state width="1558" height="296" key="GridCell.Tab.0.right" timestamp="1585813935969">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="103" y="274" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1581467266732" />
-    <state x="608" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581508249341">
+    <state width="1558" height="296" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1585813935969" />
+    <state x="190" y="82" key="SettingsEditor" timestamp="1585809309420">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="608" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1581508249341" />
+    <state x="190" y="82" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1585809309420" />
+    <state x="103" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585809882148">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="103" y="274" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1585809882148" />
+    <state x="608" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585812961828">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="608" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1585812961828" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Science_Team$Python.coverage" NAME="Python Coverage Results" MODIFIED="1581468021569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Data_Science_Team$LSTM_Net.coverage" NAME="LSTM-Net Coverage Results" MODIFIED="1581468045286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Science_Team$LSTM_Net.coverage" NAME="LSTM-Net Coverage Results" MODIFIED="1585813935952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
